@@ -7,7 +7,7 @@ public class ValidNumber {
     {
         InputStreamReader isr = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(isr);
-        System.out.println("Enter a String to check whether it is a valid no or not!!!");
+        System.out.print("Enter a String to check whether it is a valid no or not!!!");
         String str = br.readLine();
         System.out.println(new ValidNumber().isValidNumber(str));
     }

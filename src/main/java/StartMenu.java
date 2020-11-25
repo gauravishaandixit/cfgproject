@@ -14,6 +14,7 @@ public class StartMenu {
             System.out.println("2:: The largest multiple of three that can be formed by concatenating " +
                     "some of the given digits in any order!!!");
             System.out.println("3:: Convert a String to Integer!!!");
+            System.out.println("4:: Search in Rotated Sorted Array!!!");
             System.out.print("Enter a choice according to the above menu:: ");
             String ch = br.readLine();
             choice = Integer.parseInt(ch);
@@ -21,7 +22,7 @@ public class StartMenu {
 
             mapChoiceToProgram(choice);
 
-        }while (true);
+        } while(choice != 0);
 
 
     }

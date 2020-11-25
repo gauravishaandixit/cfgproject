@@ -10,11 +10,12 @@ public class StartMenu {
         int choice = -1;
         do {
             System.out.println("0:: Exit!!!");
-            System.out.println("1:: To Check Whether A String Is Valid Or Not.!!!");
+            System.out.println("1:: To Check Whether A String Is Valid Number Or Not.!!!");
             System.out.println("2:: The largest multiple of three that can be formed by concatenating " +
                     "some of the given digits in any order!!!");
             System.out.println("3:: Convert a String to Integer!!!");
             System.out.println("4:: Search in Rotated Sorted Array!!!");
+            System.out.println("5:: Calculate Grade!!!");
             System.out.print("Enter a choice according to the above menu:: ");
             String ch = br.readLine();
             choice = Integer.parseInt(ch);
@@ -38,6 +39,10 @@ public class StartMenu {
             case 2: LargestMultipleOfThree.main(null);
                 break;
             case 3: StringToInteger.main(null);
+                break;
+            case 4: SearchInArray.main(null);
+                break;
+            case 5: Grade.main(null);
                 break;
             default: System.out.println("Wrong Choice Buddy!!!");
         }
